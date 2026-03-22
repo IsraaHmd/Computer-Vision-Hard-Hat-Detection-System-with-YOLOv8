@@ -119,4 +119,4 @@ The model provides:
 * Training history plots (loss and metric curves)
 
 
-**Note:** This project is for educational and demonstration purposes. Workplace safety monitoring should be part of a comprehensive safety program with human oversight.
+**Note:** This project is for educational and demonstration purposes.
