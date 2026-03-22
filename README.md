@@ -109,23 +109,6 @@ Execute cells sequentially to:
 - Train the model
 - Evaluate and visualize results
 
-## Training Configuration
-```yaml
-path: /content/Dataset/2
-train: train/images
-val: val/images
-test: test/images
-nc: 2
-names: ['helmet', 'head']
-```
-
-## Notes
-
-* Images are resized to 640x640 for YOLOv8 input
-* PASCAL VOC format converted to YOLO format (normalized coordinates)
-* Model exports to ONNX for deployment flexibility
-* Training plots automatically generated (loss curves, confusion matrix, PR curves)
-
 ## Results
 
 The model provides:
